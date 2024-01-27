@@ -1,0 +1,183 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reciepe Book</title>
+    <style>
+        *{margin: 0px;
+        padding: 0px;
+        }
+        
+        body{
+            background-color: #F4E5D4;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .container{
+           width: 50%;
+            background-color: white;
+           padding:35px;
+            display: grid;
+            place-items: center;
+            margin: auto;
+            border-radius: 20px;
+        }
+        img{
+            width:100%;
+            border-radius: 5px;
+         
+        }
+        h1{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        p{
+            font-size: 18px;
+            color:rgb(96, 95, 95);
+            padding: 3px 0px;
+        }
+        .preparation_time{
+            background-color: #f6dde9;
+            padding: 20px 40px;
+            border-radius: 15px;
+            margin-top: 40px;
+        }
+        h2{
+            color: #844560;
+            font-size: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        ul{
+            font-size: 20px;
+            color: #4f2939;
+        }
+        ul li,ol li{
+            padding: 7px 0px;
+            color:#844560;
+            font-size: 20px;
+        }
+        ul li span,ol li span{
+            color:rgb(96, 95, 95) ;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 100;
+            font-size: 20px;
+        }
+        .ingredent{
+            font-size: 27px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding-top: 20px;
+        }
+        .ingredent_list{
+            color:rgb(96, 95, 95) ;
+            font-size: 15px;
+            padding-left: 40px;
+            padding-bottom: 20px;
+        }
+        table{
+            width: 100%;
+            border-spacing: 0;
+        }
+        td{
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid rgb(179, 179, 179);
+        }
+        .red{
+            color: #844560;
+            font-weight: 700;
+        }
+        .gray{
+            color: rgb(96, 95, 95);
+        }
+        .down{
+            font-size: 15px;
+            padding: 10px 0px;
+        }
+        /* media  queries for mobile */
+        @media screen and (max-width:426px){
+           
+            .container{
+                width: 90%;
+                background-color: white;
+                padding: 0px;
+                border-radius: 0px;
+               padding: 5%;
+             
+            }
+            img{
+                width: 100%;
+                padding: ;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/cheeseomelette_80621_16x9.jpg">
+        </div>
+        <div class="content">
+            <h1>Cheesy Mushroom Omelette Recipe</h1>
+                <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+                <div class="preparation_time">
+                    <h2>Preparation time</h2>
+                    <ul>
+                        <li>Total:<span>Approximately 10 minutes</span></li>
+                        <li>Preparation:<span>5 minutes</span></li>
+                        <li>Cooking:<span>5 minutes</span></li>
+                    </ul>
+                </div>
+                <h2 class="ingredent">Ingredients</h2>
+                <ul class="ingredent_list">
+                    <li>&emsp;<span>2-3 large eggs</span></li>
+                    <li>&emsp;<span>Salt, to taste</span></li>
+                    <li>&emsp;<span>Pepper, to taste</span></li>
+                    <li>&emsp;<span>1 tablespoon of butter or oil</span></li>
+                    <li>&emsp;<span>Optional fillings: cheese, diced vegetables, cooked meats herb</span></li>
+                </ul>
+                <hr>
+                <h2 class="ingredent">Instrustions</h2>
+                <ol class="ingredent_list">
+                    <li>Beat the eggs:<span> In a bowl, beat the eggs with a pinch of salt and pepper until they are well
+                        mixed. You can add a tablespoon of water or milk for a fluffier texture.
+                    </span></li>
+                    <li>Heat the pan: <span> Place a non-stick frying pan over medium heat and add butter or oil.</span></li>
+                    <li>Cook the omelette: <span> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
+                        the eggs evenly coat the surface.
+                    </span></li>
+                    <li>Add fillings(optional):<span> When the eggs begin to set at the edges but are still slightly runny in the middle,sprinkle your chosen fillings over the half of the omelette.</span></li>
+                    <li>Fold and serve:<span> As the omelette continues to cook, carefully lift one edge and fold it over the fillings.
+                        Let it cook for another minutes, then slide it onto a plate.
+                    </span></li>
+                    <li>Enjoy:<span> Serve hot,with additional salt and pepper if needed.</span></li>
+                </ol>
+                <hr>
+               <div class="main">
+                <h2>Nutrition</h2>
+                <p class="down">The table below shows nutritional value per serving without the additinal fillings.</p>
+                <div class="main_content">
+                   <table>
+                    <tr>
+                        <td class="red">Calories</td>
+                        <td class="gray">277kcal</td>
+                    </tr>
+                    <tr>
+                        <td class="red">Carbs</td>
+                        <td class="gray" >0g</td>
+                    </tr>
+                    <tr>
+                        <td class="red">Protein</td>
+                        <td class="gray">20g</td>
+                    </tr>
+                    <tr>
+                        <td class="red">Fat</td>
+                        <td class="gray">22g</td>
+                    </tr>
+                   </table>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
